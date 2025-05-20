@@ -2,10 +2,7 @@
 
     pipeline{
         agent any
-environment{
-    //환경변수 선언하는 곳
 
-    }
     stage{
         //각 작업 단위를 스테이지로 나누어서 작성 가능
         stage('Pull Codes from Github'){ // 스테이지 제목 (맘대로 써도 됨)
